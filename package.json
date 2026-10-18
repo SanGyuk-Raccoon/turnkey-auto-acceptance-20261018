@@ -1,0 +1,13 @@
+{
+  "name": "turnkey-public-acceptance-sample",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.23.0",
+  "engines": {
+    "node": "24.20.0"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=tap test/*.test.js"
+  }
+}
